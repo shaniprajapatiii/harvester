@@ -5,7 +5,7 @@ export default function Hero() {
       <p className="text-lg text-gray-700 max-w-2xl mb-6">
         Use advanced tools to optimize your farming, increase yield, and save resources efficiently.
       </p>
-      <a href="/signup" className="px-6 py-3 bg-green-600 text-white rounded hover:bg-green-700">Get Started</a>
+      <Link to="/signup" className="px-6 py-3 bg-green-600 text-white rounded hover:bg-green-700">Get Started</Link>
     </section>
   );
 }
